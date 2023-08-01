@@ -17,12 +17,18 @@ body::before {
     opacity: 0.2;
 }
 
+body .logo {
+    height: 120px;
+}
+
 .cabecalho {
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 .selecao-de-personagens {
+    margin: 20px auto;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -33,7 +39,7 @@ body::before {
 .selecao-de-personagens .lista-de-personagens {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
 }
 
